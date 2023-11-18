@@ -1,0 +1,113 @@
+
+#single_section{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center; 
+
+    article{
+        width: 100%;
+    }
+
+     .single_btn{
+            
+            background-color: black;
+            color: white;
+            box-shadow: none;
+            width: 100%;
+            text-align: start;
+            padding: 32px;
+            margin-left: 0;
+            transition: all 300ms ease;
+
+            .back_icon{
+                margin-top: 4px;
+                margin-right: 5px;
+            }
+
+            &:hover{
+                color: $primary;
+            }
+        }
+
+
+    
+    .recipe_wrapper{
+        justify-content: center;
+        width: 700px;
+        min-height: 200px;
+        background-color: white;
+        margin: 0 2px;
+        margin-bottom: 40px;
+        margin-top: 60px;
+
+        .card_image{
+            object-fit: cover;
+            height: 400px;
+            width: 100%;
+        }
+
+        .recipe_title{
+            text-align: center;
+            margin-top: 18px;
+            text-transform: uppercase;
+            //font-weight: bold;
+            font-family: 'KenyanC';
+            font-size: 48px;
+        }
+
+        .recipe_info{
+
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 22px;
+    
+            .meta_fields{
+                display: flex;
+            }
+    
+            .recipe-icon{
+                margin-top: 3px;
+            }
+    
+            .meta_data{
+                margin-left: 10px;
+                text-transform: capitalize;
+                font-weight: bold;
+            }
+    
+            
+        }
+
+        .recipe_content{
+            margin: 0 auto;
+            width: 80%;
+
+            .ing_list{
+                font-weight: bold;
+            }
+        }    
+    }
+
+    @media screen and (max-width: 1024px) {
+
+       .recipe_wrapper{
+           width: 70%;
+       }
+        
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .recipe_wrapper{
+            width: 90%;
+            margin-top: 0;
+        }
+        
+    }
+
+
+
+}
+
+
+

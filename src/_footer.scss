@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.line-break{
+    width: 15.5rem;
+    height: 1px;
+    background: white;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
